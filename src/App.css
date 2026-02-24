@@ -1,3 +1,77 @@
-#root {
- 
+body {
+    margin: 0;
+    padding-bottom: 60px;
+    overflow-x: hidden;
+    font-size: 14px;
+    background-color: #f3f6f8;
+    overflow-x: hidden;
+}
+
+.card-header {
+    padding: 0.3rem 0.5rem;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+textarea.form-control {
+    height: auto;
+    line-height: 18px;
+}
+
+.form-control {
+    padding: .375rem .55rem;
+    height: 27px;
+    font-size: 13px;
+    line-height: 0.5;
+    border: 1px solid #D0D2D3 !important;
+    /* text-transform: capitalize; */
+}
+
+.form-group {
+    margin-bottom: 0.3rem;
+}
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%;
+}
+
+.bootstrap-select button {
+    text-overflow: ellipsis;
+    padding: 5px 17px 5px 7px;
+}
+
+.dropdown-toggle::after {
+    margin-right: -12px;
+}
+
+.bg-transfer {
+    background-color: #fff;
+    border: 1px solid #D0D2D3;
+}
+.lineheight16 {
+    line-height: 16px;
+}
+
+.bootstrap-select .dropdown-menu {
+    min-width: 100% !important;
+}
+
+.colmspadding {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.btn-padding {
+    padding: .05rem .48rem !important;
+}
+
+.selectpadding {
+    padding: .1rem .55rem;
+}
+
+.table th, .table td {
+    padding: 0.35rem;
+    vertical-align: middle;
 }
